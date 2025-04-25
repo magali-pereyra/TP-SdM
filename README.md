@@ -15,7 +15,7 @@ de estudio a través de archivos en formato **JSON**, lo que facilita su actuali
 - **Automatización** del proceso de inscripción a Unidades Curriculares y Exámenes, validando previaturas automáticamente.
 - **Flexible** para trabajar con múltiples planes de estudio.
 - Generación de archivos **CSV** con la información relevante de inscripciones y exámenes.
-- Separación clara entre la **lógica de negocio** y las interfaces de interacción, manteniendo el código limpio y fácil de mantener.
+- Separación clara entre la **lógica académica** y las interfaces de interacción, manteniendo el código limpio y fácil de mantener.
 
 ## Estructura del código
 
