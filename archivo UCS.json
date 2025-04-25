@@ -1,0 +1,206 @@
+
+    {
+        "S1": {
+          "UC1S1": {
+            "nombre": "Álgebra, Análisis y Geometría Analítica",
+            "creditos": 8,
+            "previas": []
+          },
+          "UC2S1": {
+            "nombre": "Mecánica, Ondas y Calor",
+            "creditos": 10,
+            "previas": []
+          },
+          "UC3S1": {
+            "nombre": "Química General e Inorgánica",
+            "creditos": 9,
+            "previas": []
+          },
+          "UC4S1": {
+            "nombre": "Taller Inicial de Tecnologías",
+            "creditos": 8,
+            "previas": []
+          },
+          "UC5S1": {
+            "nombre": "Salud y Sociedad",
+            "creditos": 8,
+            "previas": []
+          }
+        },
+        "S2": {
+          "UC1S2": {
+            "nombre": "Números Complejos y Ecuaciones Diferenciales",
+            "creditos": 8,
+            "previas": ["UC1S1"]
+          },
+          "UC2S2": {
+            "nombre": "Electricidad y Magnetismo",
+            "creditos": 10,
+            "previas": ["UC1S1", "UC2S1"]
+          },
+          "UC3S2": {
+            "nombre": "Química Orgánica y Biológica",
+            "creditos": 9,
+            "previas": ["UC3S1"]
+          },
+          "UC4S2": {
+            "nombre": "Anatomía y Fisiología Humanas",
+            "creditos": 10,
+            "previas": ["UC2S1", "UC5S1"]
+          }
+        },
+        "S3": {
+          "UC1S3": {
+            "nombre": "Optica y Radiaciones",
+            "creditos": 10,
+            "previas": ["UC1S1", "UC2S1"]
+          },
+          "UC2S3": {
+            "nombre": "Electronica Analogica",
+            "creditos": 10,
+            "previas": ["UC4S1", "UC1S2", "UC2S2"]
+          },
+          "UC3S3": {
+            "nombre": "Electrotecnia",
+            "creditos": 9,
+            "previas": ["UC1S2", "UC2S2"]
+          },
+          "UC4S3": {
+            "nombre": "Instalaciones Hospitalaria",
+            "creditos": 9,
+            "previas": ["UC3S1", "UC4S2"]
+          }
+        },
+        "S4": {
+          "UC1S4": {
+            "nombre": "Electrofisiología Clínica",
+            "creditos": 10,
+            "previas": ["UC4S2", "UC2S3"]
+          },
+          "UC2S4": {
+            "nombre": "Electrónica Digital",
+            "creditos": 10,
+            "previas": ["UC2S3"]
+          },
+          "UC3S4": {
+            "nombre": "Mecánica Máquinas y Materiales",
+            "creditos": 9,
+            "previas": ["UC1S1", "UC2S1"]
+          },
+          "UC4S4": {
+            "nombre": "Imágenes Médicas",
+            "creditos": 10,
+            "previas": ["UC4S2", "UC1S3"]
+          }
+        },
+        "S5": {
+          "UC1S5": {
+            "nombre": "Seguridad Electrica y Radiante",
+            "creditos": 10,
+            "previas": ["UC3S3", "UC4S3", "UC1S4", "UC4S4"]
+          },
+          "UC2S5": {
+            "nombre": "Normativa de Equipamiento Médico",
+            "creditos": 8,
+            "previas": ["UC3S3", "UC4S3", "UC1S4", "UC4S4"]
+          },
+          "UC3S5": {
+            "nombre": "Taller de Mantenimiento de Equipos Medicos",
+            "creditos": 10,
+            "previas": ["UC3S3", "UC4S3", "UC1S4", "UC3S4", "UC4S4"]
+          },
+          "UC4S5": {
+            "nombre": "Matematica Avanzada 1",
+            "creditos": 9,
+            "previas": ["UC1S2", "UC5S3"]
+          }
+        },
+        "S6": {
+          "UC1S6": {
+            "nombre": "Instrumental de Laboratorio Clínico",
+            "creditos": 9,
+            "previas": ["UC3S2", "UC4S3"]
+          },
+          "UC2S6": {
+            "nombre": "Informática Médica",
+            "creditos": 8,
+            "previas": ["UC5S3", "UC1S4", "UC4S4"]
+          },
+          "UC3S6": {
+            "nombre": "Instrumentación Médica Complementaria",
+            "creditos": 10,
+            "previas": ["UC3S3", "UC4S3", "UC1S4", "UC4S4"]
+          },
+          "UC4S6": {
+            "nombre": "Matemática Avanzada II",
+            "creditos": 9,
+            "previas": ["UC4S5"]
+          },
+          "UC5S6": {
+            "nombre": "Física Avanzada",
+            "creditos": 8,
+            "previas": ["UC1S3", "UC3S3"]
+          }
+        },
+        "S7": {
+          "UC1S7": {
+            "nombre": "Fisiopatologia",
+            "creditos": 9,
+            "previas": ["UC1S6", "UC3S6"]
+          },
+          "UC2S7": {
+            "nombre": "Radiaciones No-ionizantes",
+            "creditos": 7,
+            "previas": ["UC4S5", "UC5S6"]
+          },
+          "UC3S7": {
+            "nombre": "Programacion Digital Avanzada",
+            "creditos": 7,
+            "previas": ["UC2S6", "UC4S5"]
+          },
+          "UC4S7": {
+            "nombre": "Legislacion para la Salud",
+            "creditos": 5,
+            "previas": ["UC2S5", "UC1S6", "UC2S6", "UC3S6"]
+          },
+          "UC5S7": {
+            "nombre": "Economia para la Salud",
+            "creditos": 5,
+            "previas": ["UC3S5", "UC1S6", "UC2S6", "UC3S6"]
+          }
+        },
+        "S8": {
+          "UC1S8": {
+            "nombre": "Bioestadística",
+            "creditos": 7,
+            "previas": ["UC2S6"]
+          },
+          "UC2S8": {
+            "nombre": "Señales y Sistemas",
+            "creditos": 8,
+            "previas": ["UC1S4", "UC2S4", "UC4S6"]
+          },
+          "UC3S8": {
+            "nombre": "Biomecánica y Biomateriales",
+            "creditos": 7,
+            "previas": ["UC4S1", "UC3S4"]
+          },
+          "UC4S8": {
+            "nombre": "Metodología de la Investigación",
+            "creditos": 5,
+            "previas": ["UC5S6", "UC1S7"]
+          },
+          "UC5S8": {
+            "nombre": "Higiene y Seguridad en Ambientes Hospitalarios",
+            "creditos": 5,
+            "previas": ["UC1S7", "UC4S7"]
+          }
+        },
+        "S10": {
+          "UC1S10": {
+            "nombre": "Telesalud y Telemedicina",
+            "creditos": 8,
+            "previas": ["UC2S9"]
+          }
+        }
+      }
